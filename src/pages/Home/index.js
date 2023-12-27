@@ -146,8 +146,8 @@ const HomePage = () => {
                 <img
                   src="./images/purpose.jpg"
                   alt="Vision"
-                  width={5507}
-                  height={3370}
+                  width={5325}
+                  height={3878}
                   className="rounded-lg"
                 />
               </div>
@@ -203,7 +203,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center bg-[#88B9EB] text-white py-[50px]">
+        {/* <div className="flex justify-center bg-[#88B9EB] text-white py-[50px]">
           <div className="container">
             <h2 className="text-center text-[50px] font-secondary font-bold mb-2">
               Get Engaged
@@ -372,7 +372,7 @@ const HomePage = () => {
               </div>
             </TinySlider>
           </div>
-        </div>
+        </div> */}
       </ReactPageScroller>
       <footer className="fixed flex flex-col items-center bottom-0 w-full !bg-primary bg-opacity-60 text-white">
         <ul className="flex my-2">
