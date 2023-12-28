@@ -51,12 +51,12 @@ const HomePage = () => {
                     </Link>
                     <ul className="absolute rounded-lg py-5 opacity-0 invisible translate-y-1/2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition duration-300 bg-white min-w-44 text-black">
                       <li className="py-1 px-5">
-                        <Link to="/" className="text-sm">
+                        <Link to="/#our-purpose" className="text-sm">
                           Our Purpose
                         </Link>
                       </li>
                       <li className="py-1 px-5">
-                        <Link to="/" className="text-sm">
+                        <Link to="/#vision" className="text-sm">
                           Vision
                         </Link>
                       </li>
@@ -119,7 +119,7 @@ const HomePage = () => {
             </div>
           </div>
         </IntroSection>
-        <div className="flex justify-center items-center h-screen pb-16">
+        <div id="our-purpose" className="flex justify-center items-center h-screen pb-16">
           <div className="container">
             <div className="grid grid-cols-2 gap-12">
               <div className="flex items-center">
@@ -155,7 +155,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center h-screen pb-16">
+        <div id="vision" className="flex justify-center items-center h-screen pb-16">
           <div className="container">
             <div className="grid grid-cols-2 gap-12">
               <div className="flex flex-col justify-center">

@@ -50,12 +50,12 @@ const PrivacyPolicyPage = () => {
                     </Link>
                     <ul className="absolute rounded-lg py-5 opacity-0 invisible translate-y-1/2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition duration-300 bg-white min-w-44 text-black shadow-md">
                       <li className="py-1 px-5">
-                        <Link to="/" className="text-sm">
+                        <Link to="/#our-purpose" className="text-sm">
                           Our Purpose
                         </Link>
                       </li>
                       <li className="py-1 px-5">
-                        <Link to="/" className="text-sm">
+                        <Link to="/#vision" className="text-sm">
                           Vision
                         </Link>
                       </li>
