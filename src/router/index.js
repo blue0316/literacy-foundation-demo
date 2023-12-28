@@ -7,6 +7,8 @@ import GetEducatedPage from "../pages/GetEducated";
 import WeHaveToTellYouPage from "../pages/WeHaveToTellYou";
 import DonatePage from "../pages/Donate";
 import ContactUsPage from "../pages/ContactUs";
+import PrivacyPolicyPage from "../pages/PrivacyPolicy";
+import TermsOfServicePage from "../pages/TermsOfService";
 
 const CustomRouters = () => {
   return (
@@ -18,6 +20,8 @@ const CustomRouters = () => {
       <Route path="/we-have-to-tell-you" element={<WeHaveToTellYouPage />} />
       <Route path="/donate" element={<DonatePage />} />
       <Route path="/contact-us" element={<ContactUsPage />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+      <Route path="/terms-of-service" element={<TermsOfServicePage />} />
     </Routes>
   );
 };
