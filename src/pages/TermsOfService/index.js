@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { FaAngleDown } from "react-icons/fa";
-
 import "@fontsource/work-sans/700.css";
 import "@fontsource/work-sans/500.css";
 import "@fontsource/work-sans/400.css";
@@ -24,30 +22,17 @@ const TermsOfServicePage = () => {
             </div>
             <div className="flex flex-1 justify-center">
               <ul className="flex justify-center items-center mb-0">
-                <li className="group relative mx-2">
+                <li className="mx-2">
                   <Link
                     to="/"
                     className="flex p-3 leading-6 text-nowrap items-center no-underline"
                   >
                     Home
-                    <FaAngleDown className="ml-1" />
                   </Link>
-                  <ul className="absolute rounded-lg py-5 opacity-0 invisible translate-y-1/2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition duration-300 bg-white min-w-44 text-black shadow-md">
-                    <li className="py-1 px-5">
-                      <Link to="/" className="text-sm">
-                        Our Purpose
-                      </Link>
-                    </li>
-                    <li className="py-1 px-5">
-                      <Link to="/" className="text-sm">
-                        Vision
-                      </Link>
-                    </li>
-                  </ul>
                 </li>
                 <li className="mx-2">
                   <Link to="/about-us" className="p-3 leading-6 text-nowrap">
-                    About Us
+                    Our Story
                   </Link>
                 </li>
                 <li className="mx-2">
@@ -61,14 +46,6 @@ const TermsOfServicePage = () => {
                     className="p-3 leading-6 text-nowrap"
                   >
                     Get Educated
-                  </Link>
-                </li>
-                <li className="mx-2">
-                  <Link
-                    to="/we-have-to-tell-you"
-                    className="p-3 leading-6 text-nowrap"
-                  >
-                    We have to tell you
                   </Link>
                 </li>
                 <li className="mx-2">
@@ -156,7 +133,7 @@ const TermsOfServicePage = () => {
             <Link to="/">Donate</Link>
           </li>
           <li className="mx-4">
-            <Link to="/">About Us</Link>
+            <Link to="/">Our Story</Link>
           </li>
         </ul>
         <ul className="flex mb-2">

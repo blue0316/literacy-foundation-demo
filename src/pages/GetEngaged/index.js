@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ReactPageScroller from "react-page-scroller";
 
-import { FaAngleDown } from "react-icons/fa";
 import "@fontsource/work-sans/700.css";
 import "@fontsource/work-sans/500.css";
 import "@fontsource/work-sans/400.css";
@@ -39,30 +38,17 @@ const GetEngagedPage = () => {
               </div>
               <div className="flex flex-1 justify-center">
                 <ul className="flex justify-center items-center mb-0">
-                  <li className="group relative mx-2">
+                  <li className="mx-2">
                     <Link
                       to="/"
                       className="flex p-3 leading-6 text-nowrap items-center no-underline"
                     >
                       Home
-                      <FaAngleDown className="ml-1" />
                     </Link>
-                    <ul className="absolute rounded-lg py-5 opacity-0 invisible translate-y-1/2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition duration-300 bg-white min-w-44 text-black shadow-md">
-                      <li className="py-1 px-5">
-                        <Link to="/#our-purpose" className="text-sm">
-                          Our Purpose
-                        </Link>
-                      </li>
-                      <li className="py-1 px-5">
-                        <Link to="/#vision" className="text-sm">
-                          Vision
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
                   <li className="mx-2">
                     <Link to="/about-us" className="p-3 leading-6 text-nowrap">
-                      About Us
+                      Our Story
                     </Link>
                   </li>
                   <li className="mx-2">
@@ -79,14 +65,6 @@ const GetEngagedPage = () => {
                       className="p-3 leading-6 text-nowrap"
                     >
                       Get Educated
-                    </Link>
-                  </li>
-                  <li className="mx-2">
-                    <Link
-                      to="/we-have-to-tell-you"
-                      className="p-3 leading-6 text-nowrap"
-                    >
-                      We have to tell you
                     </Link>
                   </li>
                   <li className="mx-2">
@@ -215,230 +193,298 @@ const GetEngagedPage = () => {
           </p>
           <div className="container">
             <div className="grid border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:grid-cols-3 bg-white mb-6">
-              <figure className="flex flex-col items-center justify-center px-4 py-2 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-gray-700">
+              <figure className="group relative flex flex-col items-center justify-center px-4 py-6 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-gray-700">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
                   Content Creators
                 </h3>
-                <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    What you will do?
-                  </h3>
-                  <p>
-                    Develop engaging and accessible educational content,
-                    including videos, articles, and infographics, to promote
-                    financial literacy.
-                  </p>
-                </blockquote>
-                <figcaption className="flex items-center justify-center ">
-                  <div className="font-medium dark:text-white text-center rtl:text-right ms-3">
-                    <div className="text-sm text-gray-500 dark:text-gray-400">
-                      <span className="text-white font-bold">
-                        Skills you will have:{" "}
-                      </span>
-                      Writing, video production, graphic design, and
-                      storytelling.
+                <div
+                  className="cursor-pointer perspective w-full min-h-24"
+                  style={{ height: "calc(100% - 32px)" }}
+                >
+                  <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
+                    <div className="absolute backface-hidden w-full h-full">
+                      <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          What you will do?
+                        </h3>
+                        <p>
+                          Develop engaging and accessible educational content,
+                          including videos, articles, and infographics, to
+                          promote financial literacy.
+                        </p>
+                      </blockquote>
+                    </div>
+                    <div className="absolute my-rotate-y-180 backface-hidden w-full h-full overflow-hidden">
+                      <figcaption className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          Skills you will have:
+                        </h3>
+                        <p>
+                          Writing, video production, graphic design, and
+                          storytelling.
+                        </p>
+                      </figcaption>
                     </div>
                   </div>
-                </figcaption>
+                </div>
               </figure>
-              <figure className="flex flex-col items-center justify-center px-4 py-2 text-center bg-white border-b border-gray-200 md:border-e dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-gray-700">
+              <figure className="group relative flex flex-col items-center justify-center px-4 py-6 text-center bg-white border-b border-gray-200 md:border-e dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-gray-700">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
                   Technology Wizards
                 </h3>
-                <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    What you will do?
-                  </h3>
-                  <p>
-                    Leverage cutting-edge technology to create interactive
-                    websites and platforms for disseminating financial education
-                    materials.
-                  </p>
-                </blockquote>
-                <figcaption className="flex items-center justify-center ">
-                  <div className="font-medium dark:text-white text-center rtl:text-right ms-3">
-                    <div className="text-sm text-gray-500 dark:text-gray-400 ">
-                      <span className="text-white font-bold">
-                        Skills you will have:{" "}
-                      </span>
-                      Web development, app development, data analytics, and
-                      UX/UI design.
+                <div
+                  className="cursor-pointer perspective w-full min-h-24"
+                  style={{ height: "calc(100% - 32px)" }}
+                >
+                  <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
+                    <div className="absolute backface-hidden w-full h-full">
+                      <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          What you will do?
+                        </h3>
+                        <p>
+                          Leverage cutting-edge technology to create interactive
+                          websites and platforms for disseminating financial
+                          education materials.
+                        </p>
+                      </blockquote>
+                    </div>
+                    <div className="absolute my-rotate-y-180 backface-hidden w-full h-full overflow-hidden">
+                      <figcaption className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          Skills you will have:
+                        </h3>
+                        <p>
+                          Web development, app development, data analytics, and
+                          UX/UI design.
+                        </p>
+                      </figcaption>
                     </div>
                   </div>
-                </figcaption>
+                </div>
               </figure>
-              <figure className="flex flex-col items-center justify-center px-4 py-2 text-center bg-white border-b border-gray-200 md:rounded-se-lg dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-gray-700">
+              <figure className="group relative flex flex-col items-center justify-center px-4 py-6 text-center bg-white border-b border-gray-200 md:rounded-se-lg dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-gray-700">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
                   Community Educators
                 </h3>
-                <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    What you will do?
-                  </h3>
-                  <p>
-                    Organize workshops, seminars, and local events to provide
-                    in-person financial education and engage with students and
-                    adults in your community.
-                  </p>
-                </blockquote>
-                <figcaption className="flex items-center justify-center ">
-                  <div className="font-medium dark:text-white text-center rtl:text-right ms-3">
-                    <div className="text-sm text-gray-500 dark:text-gray-400 ">
-                      <span className="text-white font-bold">
-                        Skills you will have:{" "}
-                      </span>
-                      Public speaking, event planning, and teaching.
+                <div
+                  className="cursor-pointer perspective w-full min-h-24"
+                  style={{ height: "calc(100% - 32px)" }}
+                >
+                  <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
+                    <div className="absolute backface-hidden w-full h-full">
+                      <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          What you will do?
+                        </h3>
+                        <p>
+                          Organize workshops, seminars, and local events to
+                          provide in-person financial education and engage with
+                          students and adults in your community.
+                        </p>
+                      </blockquote>
+                    </div>
+                    <div className="absolute my-rotate-y-180 backface-hidden w-full h-full overflow-hidden">
+                      <figcaption className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          Skills you will have:
+                        </h3>
+                        <p>Public speaking, event planning, and teaching.</p>
+                      </figcaption>
                     </div>
                   </div>
-                </figcaption>
+                </div>
               </figure>
-              <figure className="flex flex-col items-center justify-center px-4 py-2 text-center bg-white border-r border-gray-200 dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-gray-700">
+              <figure className="group relative flex flex-col items-center justify-center px-4 py-6 text-center bg-white border-r border-gray-200 dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-gray-700">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
                   Marketing and Outreach Champions
                 </h3>
-                <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    What you will do?
-                  </h3>
-                  <p>
-                    Spread awareness of our mission through digital marketing,
-                    social media campaigns, and outreach efforts.
-                  </p>
-                </blockquote>
-                <figcaption className="flex items-center justify-center ">
-                  <div className="font-medium dark:text-white text-center rtl:text-right ms-3">
-                    <div className="text-sm text-gray-500 dark:text-gray-400 ">
-                      <span className="text-white font-bold">
-                        Skills you will have:{" "}
-                      </span>
-                      Writing, video production, graphic design, and
-                      storytelling.
+                <div
+                  className="cursor-pointer perspective w-full min-h-24"
+                  style={{ height: "calc(100% - 32px)" }}
+                >
+                  <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
+                    <div className="absolute backface-hidden w-full h-full">
+                      <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          What you will do?
+                        </h3>
+                        <p>
+                          Spread awareness of our mission through digital
+                          marketing, social media campaigns, and outreach
+                          efforts.
+                        </p>
+                      </blockquote>
+                    </div>
+                    <div className="absolute my-rotate-y-180 backface-hidden w-full h-full overflow-hidden">
+                      <figcaption className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          Skills you will have:
+                        </h3>
+                        <p>
+                          Writing, video production, graphic design, and
+                          storytelling.
+                        </p>
+                      </figcaption>
                     </div>
                   </div>
-                </figcaption>
+                </div>
               </figure>
-              <figure className="flex flex-col items-center justify-center px-4 py-2 text-center bg-white border-r border-gray-200 dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-gray-700">
+              <figure className="group relative flex flex-col items-center justify-center px-4 py-6 text-center bg-white border-r border-gray-200 dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-gray-700">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
                   Finance Coaches and Mentors
                 </h3>
-                <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    What you will do?
-                  </h3>
-                  <p>
-                    Provide one-on-one or group financial coaching and mentoring
-                    sessions to individuals seeking guidance and support.
-                  </p>
-                </blockquote>
-                <figcaption className="flex items-center justify-center ">
-                  <div className="font-medium dark:text-white text-center rtl:text-right ms-3">
-                    <div className="text-sm text-gray-500 dark:text-gray-400 ">
-                      <span className="text-white font-bold">
-                        Skills you will have:{" "}
-                      </span>
-                      Financial planning, budgeting, and counseling.
+                <div
+                  className="cursor-pointer perspective w-full min-h-24"
+                  style={{ height: "calc(100% - 32px)" }}
+                >
+                  <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
+                    <div className="absolute backface-hidden w-full h-full">
+                      <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          What you will do?
+                        </h3>
+                        <p>
+                          Provide one-on-one or group financial coaching and
+                          mentoring sessions to individuals seeking guidance and
+                          support.
+                        </p>
+                      </blockquote>
+                    </div>
+                    <div className="absolute my-rotate-y-180 backface-hidden w-full h-full overflow-hidden">
+                      <figcaption className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          Skills you will have:
+                        </h3>
+                        <p>Financial planning, budgeting, and counseling.</p>
+                      </figcaption>
                     </div>
                   </div>
-                </figcaption>
+                </div>
               </figure>
-              <figure className="flex flex-col items-center justify-center px-4 py-2 text-center bg-white border-r border-gray-200 dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-primary">
+              <figure className="group relative flex flex-col items-center justify-center px-4 py-6 text-center bg-white border-r border-gray-200 dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-primary">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
                   Youth Ambassadors
                 </h3>
-                <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    What you will do?
-                  </h3>
-                  <p>
-                    Engage with students and young adults to inspire an early
-                    interest in financial literacy and help them develop
-                    essential life skills. Skills you will have?
-                  </p>
-                </blockquote>
-                <figcaption className="flex items-center justify-center ">
-                  <div className="font-medium dark:text-white text-center rtl:text-right ms-3">
-                    <div className="text-sm text-gray-500 dark:text-gray-400 ">
-                      <span className="text-white font-bold">
-                        Skills you will have:{" "}
-                      </span>
-                      Youth engagement, mentorship, and education.
+                <div
+                  className="cursor-pointer perspective w-full min-h-24"
+                  style={{ height: "calc(100% - 32px)" }}
+                >
+                  <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
+                    <div className="absolute backface-hidden w-full h-full">
+                      <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          What you will do?
+                        </h3>
+                        <p>
+                          Engage with students and young adults to inspire an
+                          early interest in financial literacy and help them
+                          develop essential life skills.
+                        </p>
+                      </blockquote>
+                    </div>
+                    <div className="absolute my-rotate-y-180 backface-hidden w-full h-full overflow-hidden">
+                      <figcaption className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          Skills you will have:
+                        </h3>
+                        <p>Youth engagement, mentorship, and education.</p>
+                      </figcaption>
                     </div>
                   </div>
-                </figcaption>
+                </div>
               </figure>
-              <figure className="flex flex-col items-center justify-center px-4 py-2 text-center bg-white border-t border-r rounded-bl-lg border-gray-200 dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-gray-700">
+              <figure className="group relative flex flex-col items-center justify-center px-4 py-6 text-center bg-white border-t border-r rounded-bl-lg border-gray-200 dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-gray-700">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
-                  Marketing and Outreach Champions
+                  Legal and compliance guidance
                 </h3>
-                <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    What you will do?
-                  </h3>
-                  <p>
-                    Spread awareness of our mission through digital marketing,
-                    social media campaigns, and outreach efforts.
-                  </p>
-                </blockquote>
-                <figcaption className="flex items-center justify-center ">
-                  <div className="font-medium dark:text-white text-center rtl:text-right ms-3">
-                    <div className="text-sm text-gray-500 dark:text-gray-400 ">
-                      <span className="text-white font-bold">
-                        Skills you will have:{" "}
-                      </span>
-                      Writing, video production, graphic design, and
-                      storytelling.
+                <div
+                  className="cursor-pointer perspective w-full min-h-24"
+                  style={{ height: "calc(100% - 32px)" }}
+                >
+                  <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
+                    <div className="absolute backface-hidden w-full h-full">
+                      <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          What you will do?
+                        </h3>
+                        <p>Provide legal guidance on do’s and don’ts.</p>
+                      </blockquote>
+                    </div>
+                    <div className="absolute my-rotate-y-180 backface-hidden w-full h-full overflow-hidden">
+                      <figcaption className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          Skills you will have:
+                        </h3>
+                        <p>Knowledge on non profit law.</p>
+                      </figcaption>
                     </div>
                   </div>
-                </figcaption>
+                </div>
               </figure>
-              <figure className="flex flex-col items-center justify-center px-4 py-2 text-center bg-white border-t border-r border-gray-200 dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-gray-700">
+              <figure className="group relative flex flex-col items-center justify-center px-4 py-6 text-center bg-white border-t border-r border-gray-200 dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-gray-700">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
                   Finance Coaches and Mentors
                 </h3>
-                <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    What you will do?
-                  </h3>
-                  <p>
-                    Provide one-on-one or group financial coaching and mentoring
-                    sessions to individuals seeking guidance and support.
-                  </p>
-                </blockquote>
-                <figcaption className="flex items-center justify-center ">
-                  <div className="font-medium dark:text-white text-center rtl:text-right ms-3">
-                    <div className="text-sm text-gray-500 dark:text-gray-400 ">
-                      <span className="text-white font-bold">
-                        Skills you will have:{" "}
-                      </span>
-                      Financial planning, budgeting, and counseling.
+                <div
+                  className="cursor-pointer perspective w-full min-h-24"
+                  style={{ height: "calc(100% - 32px)" }}
+                >
+                  <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
+                    <div className="absolute backface-hidden w-full h-full">
+                      <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          What you will do?
+                        </h3>
+                        <p>
+                          Provide one-on-one or group financial coaching and
+                          mentoring sessions to individuals seeking guidance and
+                          support.
+                        </p>
+                      </blockquote>
+                    </div>
+                    <div className="absolute my-rotate-y-180 backface-hidden w-full h-full overflow-hidden">
+                      <figcaption className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          Skills you will have:
+                        </h3>
+                        <p>Financial planning, budgeting, and counseling.</p>
+                      </figcaption>
                     </div>
                   </div>
-                </figcaption>
+                </div>
               </figure>
-              <figure className="flex flex-col items-center justify-center px-4 py-2 text-center bg-white border-t border-r rounded-br-lg border-gray-200 dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-primary">
+              <figure className="group relative flex flex-col items-center justify-center px-4 py-6 text-center bg-white border-t border-r rounded-br-lg border-gray-200 dark:bg-primary !bg-opacity-95 hover:!bg-opacity-100 transition-all duration-300 dark:border-gray-700">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
                   Youth Ambassadors
                 </h3>
-                <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    What you will do?
-                  </h3>
-                  <p>
-                    Engage with students and young adults to inspire an early
-                    interest in financial literacy and help them develop
-                    essential life skills. Skills you will have?
-                  </p>
-                </blockquote>
-                <figcaption className="flex items-center justify-center ">
-                  <div className="font-medium dark:text-white text-center rtl:text-right ms-3">
-                    <div className="text-sm text-gray-500 dark:text-gray-400 ">
-                      <span className="text-white font-bold">
-                        Skills you will have:{" "}
-                      </span>
-                      Youth engagement, mentorship, and education.
+                <div
+                  className="cursor-pointer perspective w-full min-h-24"
+                  style={{ height: "calc(100% - 32px)" }}
+                >
+                  <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
+                    <div className="absolute backface-hidden w-full h-full">
+                      <blockquote className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          What you will do?
+                        </h3>
+                        <p>
+                          Engage with students and young adults to inspire an
+                          early interest in financial literacy and help them
+                          develop essential life skills.
+                        </p>
+                      </blockquote>
+                    </div>
+                    <div className="absolute my-rotate-y-180 backface-hidden w-full h-full overflow-hidden">
+                      <figcaption className="max-w-2xl mx-auto text-gray-500 mb-2 dark:text-gray-400">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          Skills you will have:
+                        </h3>
+                        <p>Youth engagement, mentorship, and education.</p>
+                      </figcaption>
                     </div>
                   </div>
-                </figcaption>
+                </div>
               </figure>
             </div>
             <div className="flex justify-center">
@@ -463,7 +509,7 @@ const GetEngagedPage = () => {
             <Link to="/">Donate</Link>
           </li>
           <li className="mx-4">
-            <Link to="/">About Us</Link>
+            <Link to="/">Our Story</Link>
           </li>
         </ul>
         <ul className="flex mb-2">
