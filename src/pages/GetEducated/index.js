@@ -47,7 +47,7 @@ const GetEducatedPage = () => {
                     </Link>
                   </li>
                   <li className="mx-2">
-                    <Link to="/about-us" className="p-3 leading-6 text-nowrap">
+                    <Link to="/our-story" className="p-3 leading-6 text-nowrap">
                       Our Story
                     </Link>
                   </li>
@@ -124,84 +124,248 @@ const GetEducatedPage = () => {
           <div className="container pt-12">
             <div className="grid grid-cols-2 gap-16">
               <div className="flex flex-col py-6">
-                <p className="text-xl text-supportive leading-snug px-4 text-ellipsis overflow-hidden">
-                  The Financial Literacy Crisis in America: 2023 Report By
-                  Ramsey
-                  <br />
-                  <span className="font-semibold text-sm">Hyperlink: </span>
-                  <Link
-                    className="text-sm underline hover:text-primary"
-                    to="https://www.ramseysolutions.com/financial-literacy/financial-literacy-crisis-in-america"
-                  >
-                    https://www.ramseysolutions.com/financial-literacy/financial-literacy-crisis-in-america
-                  </Link>
-                  <br />
-                  <br />
-                  The Perils Of Not Investing In Financial Literacy
-                  <br />
-                  <span className="font-semibold text-sm">Hyperlink: </span>
-                  <Link
-                    className="text-sm underline hover:text-primary"
-                    to="https://www.forbes.com/sites/yassprize/2023/04/12/the-perils-of-not-investing-in-financial-literacy/?sh=45e566085ab5"
-                  >
-                    https://www.forbes.com/sites/yassprize/2023/04/12/the-perils-of-not-investing-in-financial-literacy/?sh=45e566085ab5
-                  </Link>
-                  <br />
-                  <br />
-                  Lack of financial literacy cost 15% of adults at least $10,000
-                  in 2022. Here’s how the rest fared
-                  <br />
-                  <span className="font-semibold text-sm">Hyperlink: </span>
-                  <Link
-                    className="text-sm underline hover:text-primary"
-                    to="https://www.cnbc.com/2023/01/19/heres-how-much-people-say-lack-of-financial-literacy-cost-in-2022.html"
-                  >
-                    https://www.cnbc.com/2023/01/19/heres-how-much-people-say-lack-of-financial-literacy-cost-in-2022.html
-                  </Link>
-                </p>
+                <ul className="text-xl text-supportive leading-snug px-4 text-ellipsis overflow-hidden">
+                  <li className="group mb-8">
+                    <Link
+                      className="group-hover:text-primary"
+                      to="https://www.ramseysolutions.com/financial-literacy/financial-literacy-crisis-in-america"
+                    >
+                      The Financial Literacy Crisis in America: 2023 Report By
+                      Ramsey
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </Link>
+                  </li>
+                  <li className="group mb-8">
+                    <Link
+                      className="group-hover:text-primary"
+                      to="https://www.forbes.com/sites/yassprize/2023/04/12/the-perils-of-not-investing-in-financial-literacy/?sh=45e566085ab5"
+                    >
+                      The Perils Of Not Investing In Financial Literacy
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </Link>
+                  </li>
+                  <li className="group mb-8">
+                    <Link
+                      className="group-hover:text-primary"
+                      to="https://www.cnbc.com/2023/01/19/heres-how-much-people-say-lack-of-financial-literacy-cost-in-2022.html"
+                    >
+                      Lack of financial literacy cost 15% of adults at least
+                      $10,000 in 2022. Here’s how the rest fared
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </Link>
+                  </li>
+                </ul>
               </div>
               <div className="flex flex-col py-6">
-                <p className="text-xl text-supportive leading-snug px-4 text-ellipsis overflow-hidden">
-                  How a lack of financial literacy could be costing you
-                  thousands
-                  <br />
-                  <span className="font-semibold text-sm">Hyperlink: </span>
-                  <Link
-                    className="text-sm underline hover:text-primary"
-                    to="https://www.bankrate.com/banking/how-lack-of-financial-literacy-could-cost-thousands/#:~:text=Whether%20it%27s%20lack%20of%20knowledge,score%20and%20difficulty%20borrowing%20money"
-                  >
-                    https://www.bankrate.com/banking/how-lack-of-financial-literacy-could-cost-thousands/#:~:text=Whether%20it%27s%20lack%20of%20knowledge,score%20and%20difficulty%20borrowing%20money
-                  </Link>
-                  <br />
-                  <br />
-                  The Cost of Financial Illiteracy by LINDA LACH, DARLENE
-                  NZORUBARA
-                  <br />
-                  <span className="font-semibold text-sm">Hyperlink: </span>
-                  <Link
-                    className="text-sm underline hover:text-primary"
-                    to="https://www.ifac.org/knowledge-gateway/contributing-global-economy/discussion/cost-financialilliteracy#:~:text=Higher%20debt%20and%20bankruptcy%20rates,effects%20on%20the%20financial%20system"
-                  >
-                    https://www.ifac.org/knowledge-gateway/contributing-global-economy/discussion/cost-financialilliteracy#:~:text=Higher%20debt%20and%20bankruptcy%20rates,effects%20on%20the%20financial%20system
-                  </Link>
-                  <br />
-                  <br />
-                  Financial Literacy Education Could Help Millions of Americans
-                  <br />
-                  <span className="font-semibold text-sm">Hyperlink: </span>
-                  <Link
-                    className="text-sm underline hover:text-primary"
-                    to="https://time.com/6186290/americans-financial-literacy/"
-                  >
-                    https://time.com/6186290/americans-financial-literacy/
-                  </Link>
-                </p>
+                <ul className="text-xl text-supportive leading-snug px-4 text-ellipsis overflow-hidden">
+                  <li className="group mb-8">
+                    <Link
+                      className="group-hover:text-primary"
+                      to="https://www.bankrate.com/banking/how-lack-of-financial-literacy-could-cost-thousands/#:~:text=Whether%20it%27s%20lack%20of%20knowledge,score%20and%20difficulty%20borrowing%20money"
+                    >
+                      How a lack of financial literacy could be costing you
+                      thousands
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </Link>
+                  </li>
+                  <li className="group mb-8">
+                    <Link
+                      className="group-hover:text-primary"
+                      to="https://www.ifac.org/knowledge-gateway/contributing-global-economy/discussion/cost-financialilliteracy#:~:text=Higher%20debt%20and%20bankruptcy%20rates,effects%20on%20the%20financial%20system"
+                    >
+                      The Cost of Financial Illiteracy by LINDA LACH, DARLENE
+                      NZORUBARA
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </Link>
+                  </li>
+                  <li className="group mb-8">
+                    <Link
+                      className="group-hover:text-primary"
+                      to="https://time.com/6186290/americans-financial-literacy/"
+                    >
+                      Financial Literacy Education Could Help Millions of
+                      Americans
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <h4 className="absolute bottom-0 text-xs right-2 pb-2 mb-16">
+          <button
+            className="absolute bottom-0 text-xs right-2 pb-2 mb-16"
+            onClick={() => setCurrentPage(6)}
+          >
             Disclaimer: External Content and Resources
-          </h4>
+          </button>
         </div>
         <div className="flex relative flex-col justify-center items-center h-screen px-40 pb-16">
           <p className="absolute top-0 text-3xl flex items-center font-secondary text-supportive leading-tight h-12">
@@ -259,59 +423,189 @@ const GetEducatedPage = () => {
                   className="text-xl text-supportive leading-snug px-4"
                   style={{ listStyleType: "decimal" }}
                 >
-                  <li className="pb-4">
-                    Planet Money
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://www.npr.org/podcasts/510289/planet-money"
                     >
-                      https://www.npr.org/podcasts/510289/planet-money
+                      Planet Money
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
-                  <li className="pb-4">
-                    Ramsey show
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://www.ramseysolutions.com/shows"
                     >
-                      https://www.ramseysolutions.com/shows
+                      Ramsey show
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
-                  <li className="pb-4">
-                    Farnoosh Torabi
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://podcast.farnoosh.tv"
                     >
-                      https://podcast.farnoosh.tv
+                      Farnoosh Torabi
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
-                  <li className="pb-4">
-                    Brown ambition podcast
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://brownambitionpodcast.com/about/"
                     >
-                      https://brownambitionpodcast.com/about/
+                      Brown ambition podcast
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
-                  <li>
-                    Yo Quiero Dinero
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://yoquierodineropodcast.com/podcast/"
                     >
-                      https://yoquierodineropodcast.com/podcast/
+                      Yo Quiero Dinero
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
                 </ol>
@@ -381,15 +675,41 @@ const GetEducatedPage = () => {
                   className="text-xl text-supportive leading-snug px-4"
                   style={{ listStyleType: "decimal" }}
                 >
-                  <li className="pb-4">
-                    Planet Money
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group pb-4">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://www.npr.org/podcasts/510289/planet-money"
                     >
-                      https://www.npr.org/podcasts/510289/planet-money
+                      Planet Money
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
                   <li className="pb-4">
@@ -421,9 +741,12 @@ const GetEducatedPage = () => {
           <h3 className="text-2xl mt-8">
             Submit your favorite podcast or book on personal finance
           </h3>
-          <h4 className="absolute bottom-0 text-xs right-2 pb-2 mb-16">
+          <button
+            className="absolute bottom-0 text-xs right-2 pb-2 mb-16"
+            onClick={() => setCurrentPage(6)}
+          >
             Disclaimer: External Content and Resources
-          </h4>
+          </button>
         </div>
         <div className="flex relative flex-col justify-center items-center h-screen px-40 pb-16">
           <p className="absolute top-0 text-3xl flex items-center font-secondary text-supportive leading-tight h-12">
@@ -481,59 +804,189 @@ const GetEducatedPage = () => {
                   className="text-xl text-supportive leading-snug px-4"
                   style={{ listStyleType: "decimal" }}
                 >
-                  <li className="pb-4">
-                    Planet Money
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://www.npr.org/podcasts/510289/planet-money"
                     >
-                      https://www.npr.org/podcasts/510289/planet-money
+                      Planet Money
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
-                  <li className="pb-4">
-                    Ramsey show
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://www.ramseysolutions.com/shows"
                     >
-                      https://www.ramseysolutions.com/shows
+                      Ramsey show
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
-                  <li className="pb-4">
-                    Farnoosh Torabi
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://podcast.farnoosh.tv"
                     >
-                      https://podcast.farnoosh.tv
+                      Farnoosh Torabi
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
-                  <li className="pb-4">
-                    Brown ambition podcast
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://brownambitionpodcast.com/about/"
                     >
-                      https://brownambitionpodcast.com/about/
+                      Brown ambition podcast
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
-                  <li>
-                    Yo Quiero Dinero
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://yoquierodineropodcast.com/podcast/"
                     >
-                      https://yoquierodineropodcast.com/podcast/
+                      Yo Quiero Dinero
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
                 </ol>
@@ -634,9 +1087,12 @@ const GetEducatedPage = () => {
           <h3 className="text-2xl mt-8">
             Submit your favorite podcast or book on investments
           </h3>
-          <h4 className="absolute bottom-0 text-xs right-2 pb-2 mb-16">
+          <button
+            className="absolute bottom-0 text-xs right-2 pb-2 mb-16"
+            onClick={() => setCurrentPage(6)}
+          >
             Disclaimer: External Content and Resources
-          </h4>
+          </button>
         </div>
         <div className="flex relative flex-col justify-center items-center h-screen px-40 pb-16">
           <p className="absolute top-0 text-3xl flex items-center font-secondary text-supportive leading-tight h-12">
@@ -694,37 +1150,115 @@ const GetEducatedPage = () => {
                   className="text-xl text-supportive leading-snug px-4"
                   style={{ listStyleType: "decimal" }}
                 >
-                  <li className="pb-4">
-                    Goldman Sachs
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline break-words hover:text-primary"
+                      className="break-words group-hover:text-primary"
                       to="https://www.goldmansachs.com/intelligence/series/goldman-sachs-exchanges/index.html?chl=ps&plt=go&cid=20314087364&agp=156316992208&kid=economics%20podcast&mtype=p&gclid=EAIaIQobChMI0YaircywgwMV3GJHAR0p2QrhEAAYBCAAEgIw-_D_BwE&gclsrc=aw.ds"
                     >
-                      https://www.goldmansachs.com/intelligence/series/goldman-sachs-exchanges/index.html?chl=ps&plt=go&cid=20314087364&agp=156316992208&kid=economics%20podcast&mtype=p&gclid=EAIaIQobChMI0YaircywgwMV3GJHAR0p2QrhEAAYBCAAEgIw-_D_BwE&gclsrc=aw.ds
+                      Goldman Sachs
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
-                  <li className="pb-4">
-                    Macro Musings by David Beckworth
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://podcasts.apple.com/us/podcast/macro-musings-with-david-beckworth/id1099277290"
                     >
-                      https://podcasts.apple.com/us/podcast/macro-musings-with-david-beckworth/id1099277290
+                      Macro Musings by David Beckworth
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
-                  <li className="pb-4">
-                    Economicsdetective Hosted by Garrett Petersen
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://economicsdetective.com/category/podcast/"
                     >
-                      https://economicsdetective.com/category/podcast/
+                      Economicsdetective Hosted by Garrett Petersen
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
                 </ol>
@@ -813,9 +1347,12 @@ const GetEducatedPage = () => {
           <h3 className="text-2xl mt-8">
             Submit your favorite podcast or book on money policy
           </h3>
-          <h4 className="absolute bottom-0 text-xs right-2 pb-2 mb-16">
+          <button
+            className="absolute bottom-0 text-xs right-2 pb-2 mb-16"
+            onClick={() => setCurrentPage(6)}
+          >
             Disclaimer: External Content and Resources
-          </h4>
+          </button>
         </div>
         <div className="flex relative flex-col justify-center items-center h-screen px-40 pt-12 pb-16">
           <p className="absolute top-0 text-3xl flex items-center font-secondary text-supportive leading-tight h-12">
@@ -831,37 +1368,115 @@ const GetEducatedPage = () => {
                   className="text-xl text-supportive leading-snug px-4"
                   style={{ listStyleType: "decimal" }}
                 >
-                  <li className="pb-4">
-                    Investment Advice at Georgetown
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline break-words hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://youtu.be/6JLoU1BRdeE?si=1l9ZDeEUdTgshcKr"
                     >
-                      https://youtu.be/6JLoU1BRdeE?si=1l9ZDeEUdTgshcKr
+                      Investment Advice at Georgetown
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
-                  <li className="pb-4">
-                    Power of compounding
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://youtu.be/AnDRZBwPMuw?si=1zirnMUWNGOX_L3e"
                     >
-                      https://youtu.be/AnDRZBwPMuw?si=1zirnMUWNGOX_L3e
+                      Power of compounding
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
-                  <li className="pb-4">
-                    Advice on becoming successful
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://youtu.be/Tr6MMsoWAog?si=c8dQFjW1QAnA4IVO"
                     >
-                      https://youtu.be/Tr6MMsoWAog?si=c8dQFjW1QAnA4IVO
+                      Advice on becoming successful
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
                 </ol>
@@ -872,38 +1487,116 @@ const GetEducatedPage = () => {
                   className="text-xl text-supportive leading-snug px-4"
                   style={{ listStyleType: "decimal" }}
                 >
-                  <li className="pb-4">
-                    Everything You Need to Know About Finance and Investing in
-                    Under an Hour
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline break-words hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://youtu.be/WEDIj9JBTC8?si=eKbLuIHWONqj_vIr"
                     >
-                      https://youtu.be/WEDIj9JBTC8?si=eKbLuIHWONqj_vIr
+                      Everything You Need to Know About Finance and Investing in
+                      Under an Hour
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
-                  <li className="pb-4">
-                    Learn from mistakes
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://youtu.be/AnDRZBwPMuw?si=1zirnMUWNGOX_L3e"
                     >
-                      https://youtu.be/AnDRZBwPMuw?si=1zirnMUWNGOX_L3e
+                      Learn from mistakes
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
-                  <li className="pb-4">
-                    Rules For Investing Like a Maverick
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://youtu.be/Tr6MMsoWAog?si=c8dQFjW1QAnA4IVO"
                     >
-                      https://youtu.be/Tr6MMsoWAog?si=c8dQFjW1QAnA4IVO
+                      Rules For Investing Like a Maverick
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
                 </ol>
@@ -914,26 +1607,78 @@ const GetEducatedPage = () => {
                   className="text-xl text-supportive leading-snug px-4"
                   style={{ listStyleType: "decimal" }}
                 >
-                  <li className="pb-4">
-                    Investing during bear market
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline break-words hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://youtu.be/kAYLd8z44b8?si=e8XSrcJPcLDoW1yE"
                     >
-                      https://youtu.be/kAYLd8z44b8?si=e8XSrcJPcLDoW1yE
+                      Investing during bear market
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
-                  <li className="pb-4">
-                    6 ways to improve your relationship with money
-                    <br />
-                    <span className="font-semibold text-sm">Hyperlink: </span>
+                  <li className="group mb-8">
                     <Link
-                      className="text-sm underline hover:text-primary"
+                      className="group-hover:text-primary"
                       to="https://youtu.be/s0H1jxF5TWQ?si=yOXmrnBPRajfKzwF"
                     >
-                      https://youtu.be/s0H1jxF5TWQ?si=yOXmrnBPRajfKzwF
+                      6 ways to improve your relationship with money
+                      <div className="inline-block relative">
+                        <svg
+                          version="1.1"
+                          id="Capa_1"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 442.246 442.246"
+                          className="absolute -bottom-1 left-1 fill-supportive group-hover:fill-primary transition-all duration-300"
+                        >
+                          <g>
+                            <g>
+                              <path
+                                d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+			l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+			c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+			c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+			C453.109,146.306,453.109,75.926,409.657,32.474z"
+                              />
+                              <path
+                                d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+			l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+			c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+			c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+			C230.035,335.719,220.243,334.496,184.135,320.114z"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
                     </Link>
                   </li>
                 </ol>
@@ -943,9 +1688,12 @@ const GetEducatedPage = () => {
           <h3 className="text-2xl mt-8">
             Send your Favorite guru on investments
           </h3>
-          <h4 className="absolute bottom-0 text-xs right-2 pb-2 mb-16">
+          <button
+            className="absolute bottom-0 text-xs right-2 pb-2 mb-16"
+            onClick={() => setCurrentPage(6)}
+          >
             Disclaimer: External Content and Resources
-          </h4>
+          </button>
         </div>
         <div className="flex relative justify-center items-center h-screen pb-16">
           <header className="absolute top-0 h-12 w-full !bg-primary bg-opacity-60 text-white">
@@ -969,7 +1717,7 @@ const GetEducatedPage = () => {
                     </Link>
                   </li>
                   <li className="mx-2">
-                    <Link to="/about-us" className="p-3 leading-6 text-nowrap">
+                    <Link to="/our-story" className="p-3 leading-6 text-nowrap">
                       Our Story
                     </Link>
                   </li>
@@ -1061,7 +1809,10 @@ const GetEducatedPage = () => {
               If you have any concerns or questions about this disclaimer, or if
               you find that any link on our site is inappropriate, please feel
               free to contact us at{" "}
-              <Link className="underline hover:text-primary" to="mailto:webadmin@literacy-foundation.org">
+              <Link
+                className="underline hover:text-primary"
+                to="mailto:webadmin@literacy-foundation.org"
+              >
                 webadmin@literacy-foundation.org
               </Link>
             </p>

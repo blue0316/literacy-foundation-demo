@@ -13,7 +13,7 @@ const CustomRouters = () => {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/about-us" element={<OurStoryPage />} />
+      <Route path="/our-story" element={<OurStoryPage />} />
       <Route path="/get-engaged" element={<GetEngagedPage />} />
       <Route path="/get-educated" element={<GetEducatedPage />} />
       <Route path="/donate" element={<DonatePage />} />

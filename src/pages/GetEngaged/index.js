@@ -47,7 +47,7 @@ const GetEngagedPage = () => {
                     </Link>
                   </li>
                   <li className="mx-2">
-                    <Link to="/about-us" className="p-3 leading-6 text-nowrap">
+                    <Link to="/our-story" className="p-3 leading-6 text-nowrap">
                       Our Story
                     </Link>
                   </li>
@@ -493,6 +493,32 @@ const GetEngagedPage = () => {
                   Join the team to make the difference
                 </span>
               </button>
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-center items-center h-screen pb-16">
+          <div className="container">
+            <div className="grid grid-cols-2 gap-12">
+              <div className="flex flex-col items-center">
+                <p className="text-xl mb-4">
+                  So, you believe that financial literacy is a powerful tool for
+                  personal and societal growth…
+                </p>
+                <img
+                  src="./images/get-engaged.jpg"
+                  alt="Vision"
+                  width={5200}
+                  height={3467}
+                  className="rounded-lg"
+                />
+              </div>
+              <div className="flex flex-col justify-center">
+                <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-primary to-supportive group-hover:from-supportive group-hover:to-primary hover:text-white dark:text-black focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                  <span className="relative px-5 py-2.5 w-full transition-all ease-in duration-75 bg-white white:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                    Join the team to make the difference
+                  </span>
+                </button>
+              </div>
             </div>
           </div>
         </div>

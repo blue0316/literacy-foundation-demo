@@ -47,7 +47,7 @@ const PrivacyPolicyPage = () => {
                     </Link>
                   </li>
                   <li className="mx-2">
-                    <Link to="/about-us" className="p-3 leading-6 text-nowrap">
+                    <Link to="/our-story" className="p-3 leading-6 text-nowrap">
                       Our Story
                     </Link>
                   </li>

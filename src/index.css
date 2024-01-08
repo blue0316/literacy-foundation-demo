@@ -109,3 +109,7 @@ h2 {
       margin-right: 5px;
   }
 }
+
+.list-plus li::before {
+  content: "+ ";
+}
