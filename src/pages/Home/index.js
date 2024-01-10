@@ -177,16 +177,16 @@ const HomePage = () => {
       <footer className="fixed flex flex-col items-center bottom-0 w-full !bg-primary bg-opacity-60 text-white">
         <ul className="flex my-2">
           <li className="mx-4">
-            <Link to="/">Get Engaged</Link>
+            <Link to="/get-engaged">Get Engaged</Link>
           </li>
           <li className="mx-4">
-            <Link to="/">Get Educated</Link>
+            <Link to="/get-educated">Get Educated</Link>
           </li>
           <li className="mx-4">
-            <Link to="/">Donate</Link>
+            <Link to="/donate">Donate</Link>
           </li>
           <li className="mx-4">
-            <Link to="/">Our Story</Link>
+            <Link to="/our-story">Our Story</Link>
           </li>
         </ul>
         <ul className="flex mb-2">

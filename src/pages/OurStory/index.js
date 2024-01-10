@@ -95,7 +95,7 @@ const OurStoryPage = () => {
         </div>
         <div className="flex relative flex-col justify-center items-center h-screen px-40 pb-16">
           <div className="container pt-12">
-            <div className="grid grid-cols-2 gap-16">
+            <div className="grid grid-cols-3 gap-16">
               <div className="flex flex-col py-6">
                 <img
                   src="./images/our-story.jpg"
@@ -110,7 +110,7 @@ const OurStoryPage = () => {
                   fostering collaboration and understanding.
                 </p>
               </div>
-              <div className="flex flex-col justify-center py-6">
+              <div className="col-span-2 flex flex-col justify-center py-6">
                 <video
                   src="./video/founder.mp4"
                   poster="./images/our-story.jpg"
@@ -315,6 +315,12 @@ const OurStoryPage = () => {
               </div>
             </div>
           </div>
+          <button
+            className="absolute bottom-0 text-xs right-2 pb-2 mb-16"
+            onClick={() => setCurrentPage(5)}
+          >
+            Disclaimer: Future Plans
+          </button>
         </div>
         <div className="flex relative flex-col justify-center items-center h-screen px-40 pb-16">
           <div className="container pt-12">
@@ -363,16 +369,16 @@ const OurStoryPage = () => {
       <footer className="fixed flex flex-col items-center bottom-0 w-full !bg-primary bg-opacity-60 text-white">
         <ul className="flex my-2">
           <li className="mx-4">
-            <Link to="/">Get Engaged</Link>
+            <Link to="/get-engaged">Get Engaged</Link>
           </li>
           <li className="mx-4">
-            <Link to="/">Get Educated</Link>
+            <Link to="/get-educated">Get Educated</Link>
           </li>
           <li className="mx-4">
-            <Link to="/">Donate</Link>
+            <Link to="/donate">Donate</Link>
           </li>
           <li className="mx-4">
-            <Link to="/">Our Story</Link>
+            <Link to="/our-story">Our Story</Link>
           </li>
         </ul>
         <ul className="flex mb-2">

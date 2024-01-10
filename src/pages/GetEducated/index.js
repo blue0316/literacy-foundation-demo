@@ -719,7 +719,7 @@ const GetEducatedPage = () => {
                   </li>
                   <li className="pb-4">
                     When She Makes More: 10 Rules for Breadwinning Women{" "}
-                    <span className="text-gray-400 text-nowrap">
+                    <span className="text-nowrap">
                       By Farnoosh Torabi
                     </span>
                   </li>
@@ -1062,8 +1062,8 @@ const GetEducatedPage = () => {
                     (Author), Warren E. Buffett  (Collaborator)
                   </li>
                   <li className="pb-4">
-                    The Bogleheads’ Guide to Investing (2nd ed.)
-                    <span className="text-gray-400 text-nowrap">
+                    The Bogleheads’ Guide to Investing (2nd ed.) 
+                    <span className="text-nowrap">
                       {" "}
                       By Mel Lindauer, Michael LeBoeuf and Taylor
                     </span>
@@ -1822,16 +1822,16 @@ const GetEducatedPage = () => {
       <footer className="fixed flex flex-col items-center bottom-0 w-full !bg-primary bg-opacity-60 text-white">
         <ul className="flex my-2">
           <li className="mx-4">
-            <Link to="/">Get Engaged</Link>
+            <Link to="/get-engaged">Get Engaged</Link>
           </li>
           <li className="mx-4">
-            <Link to="/">Get Educated</Link>
+            <Link to="/get-educated">Get Educated</Link>
           </li>
           <li className="mx-4">
-            <Link to="/">Donate</Link>
+            <Link to="/donate">Donate</Link>
           </li>
           <li className="mx-4">
-            <Link to="/">Our Story</Link>
+            <Link to="/our-story">Our Story</Link>
           </li>
         </ul>
         <ul className="flex mb-2">
