@@ -35,6 +35,9 @@ module.exports = {
         primary: "Roboto",
         secondary: "Work Sans",
       },
+      screens: {
+        xs: '480px'
+      }
     },
   },
   plugins: [Myclass],

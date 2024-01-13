@@ -6,6 +6,7 @@ import "@fontsource/work-sans/500.css";
 import "@fontsource/work-sans/400.css";
 import "@fontsource/roboto/400.css";
 import { Link } from "react-router-dom";
+import MobileDropdown from "../../components/base/header/mobile-dropdown";
 
 const OurStoryPage = () => {
   const [currentPage, setCurrentPage] = useState(null);
@@ -25,8 +26,8 @@ const OurStoryPage = () => {
         onBeforePageScroll={handleBeforePageChange}
         customPageNumber={currentPage}
       >
-        <div className="flex relative justify-center items-center h-screen pb-16">
-          <header className="absolute top-0 h-12 w-full !bg-primary bg-opacity-60 text-white">
+        <div className="flex relative justify-center items-center h-screen pb-28 md:pb-20 md:pb-16">
+          <header className="hidden md:block absolute top-0 h-12 w-full !bg-primary bg-opacity-60 text-white">
             <div className="flex items-center">
               <div className="h-12 w-[42px]">
                 <img
@@ -81,6 +82,19 @@ const OurStoryPage = () => {
               </div>
             </div>
           </header>
+          <header className="md:hidden absolute top-0 h-12 w-full !bg-primary bg-opacity-60 text-white">
+            <div className="flex items-center">
+              <div className="h-12 w-[42px] mr-auto">
+                <img
+                  src="./images/logo.png"
+                  alt="Logo"
+                  width={327}
+                  height={373}
+                />
+              </div>
+              <MobileDropdown />
+            </div>
+          </header>
           <div className="container pt-12 h-full">
             <div className="flex items-center h-full py-16">
               <img
@@ -93,9 +107,9 @@ const OurStoryPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex relative flex-col justify-center items-center h-screen px-40 pb-16">
-          <div className="container pt-12">
-            <div className="grid grid-cols-3 gap-16">
+        <div className="flex relative flex-col justify-center items-center h-screen px-4 md:px-40 pb-28 xs:pb-20 md:pb-16">
+          <div className="w-full md:container pt-12">
+            <div className="md:grid md:grid-cols-3 md:gap-16">
               <div className="flex flex-col py-6">
                 <img
                   src="./images/our-story.jpg"
@@ -110,7 +124,7 @@ const OurStoryPage = () => {
                   fostering collaboration and understanding.
                 </p>
               </div>
-              <div className="col-span-2 flex flex-col justify-center py-6">
+              <div className="hidden md:flex md:col-span-2 flex-col justify-center py-6">
                 <video
                   src="./video/founder.mp4"
                   poster="./images/our-story.jpg"
@@ -121,14 +135,14 @@ const OurStoryPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex relative flex-col justify-center items-center h-screen px-40 pb-16">
-          <div className="container pt-12">
+        <div className="flex relative flex-col items-center h-screen pt-4 md:pt-0 px-4 md:px-40 pb-28 xs:pb-20 md:pb-16">
+          <div className="w-full md:container pt-12 h-full overflow-y-scroll">
             <img
               src="./images/our-story.jpg"
               alt="Founder"
               width={6000}
               height={4000}
-              className="rounded-lg mr-8 mb-8 w-80 h-80 object-cover float-left"
+              className="rounded-lg mr-8 mb-8 sm:w-80 h-80 object-cover sm:float-left"
             />
             <h3 className="text-3xl mb-8">Founders Message</h3>
             <p>
@@ -198,8 +212,8 @@ const OurStoryPage = () => {
             </p>
           </div>
         </div>
-        <div className="flex relative justify-center items-center h-screen pb-16">
-          <header className="absolute top-0 h-12 w-full !bg-primary bg-opacity-60 text-white">
+        <div className="flex relative justify-center items-center h-screen pb-28 xs:pb-20 md:pb-16">
+          <header className="hidden md:block absolute top-0 h-12 w-full !bg-primary bg-opacity-60 text-white">
             <div className="flex items-center">
               <div className="h-12 w-[42px]">
                 <img
@@ -254,6 +268,19 @@ const OurStoryPage = () => {
               </div>
             </div>
           </header>
+          <header className="md:hidden absolute top-0 h-12 w-full !bg-primary bg-opacity-60 text-white">
+            <div className="flex items-center">
+              <div className="h-12 w-[42px] mr-auto">
+                <img
+                  src="./images/logo.png"
+                  alt="Logo"
+                  width={327}
+                  height={373}
+                />
+              </div>
+              <MobileDropdown />
+            </div>
+          </header>
           <div className="container pt-12 h-full">
             <div className="flex items-center h-full py-16">
               <img
@@ -266,12 +293,12 @@ const OurStoryPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex relative flex-col justify-center items-center h-screen px-40 pb-16">
-          <div className="container pt-12">
-            <div className="grid grid-cols-3 gap-16">
-              <div className="flex flex-col py-6">
-                <h3 className="text-3xl text-center mb-8">Now</h3>
-                <ul className="relative list-none ml-0 pl-5 text-xl list-plus">
+        <div className="flex relative flex-col justify-center items-center h-screen px-4 md:px-40 pb-28 xs:pb-20 md:pb-16">
+          <div className="w-full md:container pt-4 md:pt-12">
+            <div className="md:grid md:grid-cols-3 md:gap-16">
+              <div className="flex flex-col py-2 md:py-6">
+                <h3 className="text-2xl md:text-3xl text-center mb-0 sm:mb-8">Now</h3>
+                <ul className="relative list-none ml-0 pl-5 text-lg sm:text-xl list-plus">
                   <li className="before:absolute before:left-0">
                     Educate and bring the issue to light
                   </li>
@@ -292,9 +319,9 @@ const OurStoryPage = () => {
                   </li>
                 </ul>
               </div>
-              <div className="flex flex-col py-6">
-                <h3 className="text-3xl text-center mb-8">Next</h3>
-                <ul className="relative list-none ml-0 pl-5 text-xl list-plus">
+              <div className="flex flex-col py-2 md:py-6">
+                <h3 className="text-2xl md:text-3xl text-center mb-0 sm:mb-8">Next</h3>
+                <ul className="relative list-none ml-0 pl-5 text-lg sm:text-xl list-plus">
                   <li className="before:absolute before:left-0">
                     Engage with community leaders and volunteers to refine the
                     approach
@@ -304,9 +331,9 @@ const OurStoryPage = () => {
                   </li>
                 </ul>
               </div>
-              <div className="flex flex-col py-6">
-                <h3 className="text-3xl text-center mb-8">Later</h3>
-                <ul className="relative list-none ml-0 pl-5 text-xl list-plus">
+              <div className="flex flex-col py-2 md:py-6">
+                <h3 className="text-2xl md:text-3xl text-center mb-0 sm:mb-8">Later</h3>
+                <ul className="relative list-none ml-0 pl-5 text-lg sm:text-xl list-plus">
                   <li className="before:absolute before:left-0">
                     Explore using AI models to start with curating the
                     content/classes based on the individual
@@ -316,14 +343,14 @@ const OurStoryPage = () => {
             </div>
           </div>
           <button
-            className="absolute bottom-0 text-xs right-2 pb-2 mb-16"
+            className="absolute bottom-0 text-xs right-2 pb-2 mb-28 xs:mb-20 md:mb-16"
             onClick={() => setCurrentPage(5)}
           >
             Disclaimer: Future Plans
           </button>
         </div>
-        <div className="flex relative flex-col justify-center items-center h-screen px-40 pb-16">
-          <div className="container pt-12">
+        <div className="flex relative flex-col items-center h-screen px-4 md:px-40 pb-28 xs:pb-20 md:pb-16">
+          <div className="container pt-12 h-full overflow-y-scroll">
             <h3 className="text-xl font-bold mb-8">
               Disclaimer on Forward-Looking Statements and Future Plans
             </h3>
@@ -366,29 +393,29 @@ const OurStoryPage = () => {
           </div>
         </div>
       </ReactPageScroller>
-      <footer className="fixed flex flex-col items-center bottom-0 w-full !bg-primary bg-opacity-60 text-white">
-        <ul className="flex my-2">
-          <li className="mx-4">
+      <footer className="fixed flex flex-col justify-center items-center bottom-0 w-full !bg-primary bg-opacity-60 text-white">
+        <ul className="flex flex-wrap my-2">
+          <li className="mx-4 text-nowrap">
             <Link to="/get-engaged">Get Engaged</Link>
           </li>
-          <li className="mx-4">
+          <li className="mx-4 text-nowrap">
             <Link to="/get-educated">Get Educated</Link>
           </li>
-          <li className="mx-4">
+          <li className="mx-4 text-nowrap">
             <Link to="/donate">Donate</Link>
           </li>
-          <li className="mx-4">
+          <li className="mx-4 text-nowrap">
             <Link to="/our-story">Our Story</Link>
           </li>
         </ul>
-        <ul className="flex mb-2">
-          <li className="text-xs mx-4">
-            <p>Copyright © 2023 Literacy Foundation. All Rights Reserved.</p>
+        <ul className="flex flex-wrap my-2">
+          <li className="text-xs px-4 max-w-full">
+            <p className="text-nowrap text-ellipsis overflow-hidden max-w-full">Copyright © 2023 Literacy Foundation. All Rights Reserved.</p>
           </li>
-          <li className="text-xs mx-4">
+          <li className="text-xs px-4 text-nowrap">
             <Link to="/privacy-policy">Privacy Policy</Link>
           </li>
-          <li className="text-xs mx-4">
+          <li className="text-xs px-4 text-nowrap">
             <Link to="/terms-of-service">Terms of service</Link>
           </li>
         </ul>

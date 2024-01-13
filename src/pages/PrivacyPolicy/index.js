@@ -6,6 +6,7 @@ import "@fontsource/work-sans/700.css";
 import "@fontsource/work-sans/500.css";
 import "@fontsource/work-sans/400.css";
 import "@fontsource/roboto/400.css";
+import MobileDropdown from "../../components/base/header/mobile-dropdown";
 
 const PrivacyPolicyPage = () => {
   const [currentPage, setCurrentPage] = useState(null);
@@ -25,8 +26,8 @@ const PrivacyPolicyPage = () => {
         onBeforePageScroll={handleBeforePageChange}
         customPageNumber={currentPage}
       >
-        <div className="flex justify-center items-center h-screen pt-12 pb-16">
-          <header className="absolute top-0 h-12 w-full !bg-primary bg-opacity-60 text-white">
+        <div className="flex justify-center items-center h-screen pt-12 pb-28 px-4 md:px-0 xs:pb-20 md:pb-16">
+          <header className="hidden md:block absolute top-0 h-12 w-full !bg-primary bg-opacity-60 text-white">
             <div className="flex items-center">
               <div className="h-12 w-[42px]">
                 <img
@@ -81,7 +82,20 @@ const PrivacyPolicyPage = () => {
               </div>
             </div>
           </header>
-          <div className="container text-left">
+          <header className="md:hidden absolute top-0 h-12 w-full !bg-primary bg-opacity-60 text-white">
+            <div className="flex items-center">
+              <div className="h-12 w-[42px] mr-auto">
+                <img
+                  src="./images/logo.png"
+                  alt="Logo"
+                  width={327}
+                  height={373}
+                />
+              </div>
+              <MobileDropdown />
+            </div>
+          </header>
+          <div className="w-full md:container h-full text-left overflow-y-scroll">
             <h2 className="text-left text-4xl mb-6">Privacy Policy</h2>
             <h3 className="text-left text-2xl mb-4">
               $Literacy Foundation Privacy Policy - Effective Date: December 16,
@@ -133,8 +147,8 @@ const PrivacyPolicyPage = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-center items-start h-screen py-16">
-          <div className="container text-left">
+        <div className="flex justify-center items-start h-screen px-4 md:px-0 pt-16 pb-28 xs:pb-20 md:pb-16">
+          <div className="w-full md:container h-full text-left overflow-y-scroll">
             <h4 className="text-xl mb-2">7. Your Rights</h4>
             <p className="ml-6">You have the opportunity to:</p>
             <ul className="ml-12 mb-2 list-disc">
@@ -181,29 +195,29 @@ const PrivacyPolicyPage = () => {
           </div>
         </div>
       </ReactPageScroller>
-      <footer className="fixed flex flex-col items-center bottom-0 w-full !bg-primary bg-opacity-60 text-white">
-        <ul className="flex my-2">
-          <li className="mx-4">
+      <footer className="fixed flex flex-col justify-center items-center bottom-0 w-full !bg-primary bg-opacity-60 text-white">
+        <ul className="flex flex-wrap my-2">
+          <li className="mx-4 text-nowrap">
             <Link to="/get-engaged">Get Engaged</Link>
           </li>
-          <li className="mx-4">
+          <li className="mx-4 text-nowrap">
             <Link to="/get-educated">Get Educated</Link>
           </li>
-          <li className="mx-4">
+          <li className="mx-4 text-nowrap">
             <Link to="/donate">Donate</Link>
           </li>
-          <li className="mx-4">
+          <li className="mx-4 text-nowrap">
             <Link to="/our-story">Our Story</Link>
           </li>
         </ul>
-        <ul className="flex mb-2">
-          <li className="text-xs mx-4">
-            <p>Copyright © 2023 Literacy Foundation. All Rights Reserved.</p>
+        <ul className="flex flex-wrap my-2">
+          <li className="text-xs px-4 max-w-full">
+            <p className="text-nowrap text-ellipsis overflow-hidden max-w-full">Copyright © 2023 Literacy Foundation. All Rights Reserved.</p>
           </li>
-          <li className="text-xs mx-4">
+          <li className="text-xs px-4 text-nowrap">
             <Link to="/privacy-policy">Privacy Policy</Link>
           </li>
-          <li className="text-xs mx-4">
+          <li className="text-xs px-4 text-nowrap">
             <Link to="/terms-of-service">Terms of service</Link>
           </li>
         </ul>

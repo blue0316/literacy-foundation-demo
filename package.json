@@ -15,6 +15,7 @@
     "react-page-scroller": "^3.0.1",
     "react-router-dom": "^6.21.1",
     "react-scripts": "5.0.1",
+    "swiper": "^11.0.5",
     "tiny-slider-react": "^0.5.7",
     "web-vitals": "^2.1.4"
   },
